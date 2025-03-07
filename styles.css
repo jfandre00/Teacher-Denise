@@ -82,11 +82,18 @@ nav a:hover {
         padding-bottom: 1em;
 
     }
+    nav {
+        padding: 0;
+        width: 80%;
+        height: 60%;
+
+    }
 
     nav ul {
         display: flex;
         flex-direction: row;
         justify-content: center;
+        margin: 0;
     }
 }
 
@@ -147,7 +154,19 @@ div #daimagem {
 
     div #meio, div #daimagem {
         padding: 1em;
-        margin: 0.5em;
+        margin: none;
+    }
+    section img {
+        width: 20em;
+        height: 20em;
+        padding: none;
+        border: none;
+    }
+
+    div #texto {
+        padding: 1em;
+        font-size: 1.2em;
+        margin: 1em 0;
     }
 }
 
