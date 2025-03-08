@@ -92,13 +92,15 @@ nav a:hover {
     nav ul {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-around;
         margin: 0;
+        padding: 0;
     }
 
     nav ul li {
         padding: 0.5em;
-        font-size: 1.0em;
+        font-size: 0.8em;
+        margin: 0;
     }
 }
 
@@ -160,10 +162,11 @@ div #daimagem {
     div #meio, div #daimagem {
         padding: 1em;
         margin: none;
+        
     }
     section img {
-        width: 15em;
-        height: 15em;
+        width: 10em;
+        height: 10em;
         padding: none;
         border: none;
     }
@@ -215,6 +218,7 @@ div #daimagem {
     #curso1, #curso2, #curso3, #curso4 {
         width: 80%;
     }
+
 }
 
 #curso1 img, #curso2 img, #curso3 img, #curso4 img {
